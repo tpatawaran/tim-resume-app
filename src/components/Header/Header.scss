@@ -1,0 +1,79 @@
+@use "../../styles/partials/mixins" as *;
+@import "../../styles/partials/variables";
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    @include desktop {
+        display: none;
+    }
+}
+header{
+    height: 100vh;
+    position: fixed;
+    z-index: 2;
+
+}
+.header_list{
+    height: 80vh;
+    width: 100vw;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: #433c3c;
+    &_item{
+        color: #bfbebe;
+
+        a {
+            color: inherit; /* Inherit color from parent */
+            text-decoration: none; /* Remove underline */
+        }
+    }
+
+}
+.menu {
+    height: 50px;
+    position: absolute;
+    right: 1rem;
+    z-index: 10;
+
+
+    &_alt{
+        display: none;
+    }
+
+}
+
+.close {
+    height: 50px;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+    &_alt{
+        display: none;
+    }
+}
+
+
+.header.active {
+    display: none;
+}
+
+.nav_desktop{
+    display: none;
+    @include desktop {
+        display: flex;
+        justify-content: flex-end;
+
+        &_list{
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+            margin-right: 3rem;
+            width: 80vw;
+        }
+    }
+}
