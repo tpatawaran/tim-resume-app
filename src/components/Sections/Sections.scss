@@ -1,0 +1,44 @@
+@use "../../styles/partials/mixins" as *;
+@import "../../styles/partials/variables";
+
+
+.hero{
+    &_subheading{
+        color: #64ffda;
+        font-weight: 500;
+        margin-top: 2rem;
+        @include desktop {
+            margin-top: 4rem;
+        }
+    }
+    &_heading{
+        font-size: clamp(2.5rem, 6vw, 5rem);/* Responsive font size: min 2.5rem, scales with 8vw, max 5rem */
+        color: #bfbebe;
+        margin: 0;
+        
+
+    }
+    &_statement{
+        font-size: clamp(2.5rem, 6vw, 5rem);
+        color: #8892B0;
+        margin: 0;
+    }
+}
+
+section{
+padding: 2rem;
+@include desktop{
+    padding: 2rem 8rem;
+}
+}
+
+.section{
+
+    &_title{
+        color: #bfbebe;
+    }
+    &_information{
+        color: #8892B0;
+        list-style-type: circle;
+    }
+}
