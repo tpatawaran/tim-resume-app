@@ -1,6 +1,7 @@
 import "./Sections.scss";
 
 function Sections() {
+    // test
     return (
         <>
             <section  id="About" className="About">
