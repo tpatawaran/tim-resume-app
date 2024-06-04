@@ -32,27 +32,28 @@ function Sections() {
             </section>
             <section id="Work_Experience" className="Work_Experience">
                 <h2 className="section_title">Work Experience</h2>
-                <p className="section_information">
-                    Junior Network & I.T Technician (Co-op) | Delta Police Department | September 2023 – Present
-                    ●	Collaborated in the creation of the organization’s SharePoint site, enhancing communication and information sharing among team members
-                    ●	Provided daily user and desktop support, resolving issues promptly and efficiently
-                    ●	Developed and implemented various Microsoft Power Automations to streamline processes and increase efficiency across different departments
-                    ●	Supported local Community Police Offices by managing their phones and computers while addressing technical concerns
-                    ●	Assisted the Network Administrator with server support and administration tasks, contributing to network stability
-                    ●	Efficiently installed, troubleshooted, and supported Mobile Data Terminals, ensuring seamless operation
+                <div className="section_information">
+                    <h4 className="section_list_title">Junior Network & I.T Technician (Co-op) | Delta Police Department | September 2023 – Present</h4>
+                    	<ul className="section_list">
+                        <li className="section_list_item">Collaborated in the creation of the organization’s SharePoint site, enhancing communication and information sharing among team members</li>
+                        <li className="section_list_item">Provided daily user and desktop support, resolving issues promptly and efficiently</li>
+                        <li className="section_list_item">Developed and implemented various Microsoft Power Automations to streamline processes and increase efficiency across different dep</li>artments
+                        <li className="section_list_item">Supported local Community Police Offices by managing their phones and computers while addressing technical concerns</li>
+                        <li className="section_list_item">Assisted the Network Administrator with server support and administration tasks, contributing to network stability</li>
+                        <li className="section_list_item">Efficiently installed, troubleshooted, and supported Mobile Data Terminals, ensuring seamless operation</li>
+                    </ul>
 
-                    Deployment Technician (Co-op) | Microserve | January 2022 - September 2022
-                    ●	Efficiently supported IT hardware and software at various client sites, including, Fraser Health Authority, WorkSafeBC, Provincial Health Services Authority, Vancouver Island Health Authority, and Interior Health Authority
-                    ●	Effectively configured hardware, software, and networks, while troubleshooting any problems in a team environment
-                    ●	Provided on-site client training for newly deployed hardware and software environments
-                    ●	Responded to end-user inquiries and provided technical support to clients
-                    ●	Accurately trained and guided new employees following company protocols
-                </p>
+                    <h4 className="section_list_title">Deployment Technician (Co-op) | Microserve | January 2022 - September 2022</h4>
+                    	<ul className="section_list">
+                        <li className="section_list_item">Efficiently supported IT hardware and software at various client sites, including, Fraser Health Authority, WorkSafeBC, Provincial Health Services Authority, Vancouver Island Health Authority, and Interior Health Authority</li>
+                        <li className="section_list_item">Effectively configured hardware, software, and networks, while troubleshooting any problems in a team environment</li>
+                        <li className="section_list_item">Provided on-site client training for newly deployed hardware and software environments</li>
+                        <li className="section_list_item">Responded to end-user inquiries and provided technical support to clients</li>
+                        <li className="section_list_item">Accurately trained and guided new employees following company protocols</li>
+                    </ul>
+                </div>
             </section>
-            <section id="Contact" className="Contact">
-                <h2 className="section_title">Contact</h2>
-                <p className="section_information"></p>
-            </section>
+            <a href="mailto:tpatawaran@outlook.com"  className="contact_button">Contact Me!</a>
         </>
     )
 }

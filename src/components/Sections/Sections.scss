@@ -28,7 +28,7 @@
 section{
 padding: 2rem;
 @include desktop{
-    padding: 2rem 8rem;
+    padding: 0.5rem 6rem;
 }
 }
 
@@ -41,4 +41,21 @@ padding: 2rem;
         color: #8892B0;
         list-style-type: circle;
     }
+    &_list{
+        list-style-type: circle;
+    }
 }
+
+.contact_button{
+    display: flex;
+    border: solid 0.125rem #64ffda ;
+    border-radius: 0.125rem;
+    color: #64ffda;
+    background-color: #0A192F;
+    padding: 1rem 2rem;
+    margin: 2rem auto;
+    width: 10rem;
+    text-decoration: none;
+}
+
+
